@@ -4,10 +4,9 @@ import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
 
 const App = () => (
-  <div>
+  <div className="row mt-4 ml-4">
     <AddTodo />
     <VisibleTodoList />
-    <Footer />
   </div>
 )
 
